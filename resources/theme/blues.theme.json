@@ -5,36 +5,50 @@
 
   "editorScheme": "/META-INF/blues_theme.xml",
 
+  "colors": {
+    "basicBackground": "#0000a8",
+    "basicForeground": "#57ffff",
+    "basicSelectedColor": "#ffff57",
+    "basicBorderColor": "#fbfbfb",
+    "basicInfoForefground": "#ffffff",
+    "basicDisabledForeground": "#a8a8a8",
+    "basicDisabledBackground": "#000000",
+    "basicMenuBackground": "#00a8a8",
+    "basicMenuForeground": "#ffffff",
+    "basicSelectionMenuBackground": "#000000",
+    "basicSelectionMenuForeground": "#ffffff"
+  },
+
   "ui": {
     "*": {
-      "background": "#202831",
-      "foreground": "#c9cbcf",
+      "background": "basicBackground",
+      "foreground": "basicForeground",
 
-      "infoForeground": "#6f7a86",
+      "infoForeground": "basicInfoForefground",
 
-      "selectionBackground": "#303a45",
-      "selectionForeground": "#ececee",
+      "selectionBackground": "basicForeground",
+      "selectionForeground": "basicBackground",
       "selectionInactiveBackground": "#303a45",
       "selectionBackgroundInactive": "#303a45",
 
-      "disabledBackground": "#70011f",
-      "inactiveBackground": "#70011f",
+      "disabledBackground": "basicDisabledBackground",
+      "inactiveBackground": "basicDisabledBackground",
 
-      "disabledForeground": "#303a45",
-      "disabledText": "#303a45",
-      "inactiveForeground": "#ececee",
+      "disabledForeground": "basicDisabledForeground",
+      "disabledText": "basicDisabledForeground",
+      "inactiveForeground": "basicDisabledForeground",
 
       "acceleratorForeground": "#ececee",
       "acceleratorSelectionForeground": "#ececee",
 
       "errorForeground": "#c82600",
 
-      "borderColor": "#303a45",
-      "disabledBorderColor": "#303a45",
-      "focusColor": "#434e5b",
-      "focusedBorderColor": "#434e5b",
-      "hoverBorderColor": "#434e5b",
-      "pressedBorderColor": "#434e5b",
+      "borderColor": "basicBorderColor",
+      "disabledBorderColor": "#57ffff",
+      "focusColor": "#a8a8a8",
+      "focusedBorderColor": "basicSelectedColor",
+      "hoverBorderColor": "basicSelectedColor",
+      "pressedBorderColor": "basicSelectedColor",
 
       "separatorColor": "#303a45",
       "lineSeparatorColor": "#434e5b"
@@ -64,8 +78,8 @@
     },
 
     "Borders": {
-      "color": "#303a45",
-      "ContrastBorderColor": "#434e5b"
+      "color": "basicBorderColor",
+      "ContrastBorderColor": "basicSelectedColor"
     },
 
     "ComboBox": {
@@ -107,10 +121,9 @@
     "DebuggerTabs.underlineHeight": 1,
 
     "DefaultTabs": {
-      "underlineColor": "#3d8beb",
-      "inactiveUnderlineColor": "#8dc3f9",
-      "underlineHeight": 1,
-      "hoverBackground": "#303a45"
+      "underlineColor": "#ffffff",
+      "inactiveUnderlineColor": "#101005",
+      "underlineHeight": 1
     },
 
     "DragAndDrop": {
@@ -120,19 +133,20 @@
     },
 
     "Editor": {
-      "background": "#202831",
-      "foreground": "#ececee",
-      "shortcutForeground": "#6f7a86"
+      "background": "basicBackground",
+      "foreground": "basicForeground",
+      "shortcutForeground": "basicSelectedColor"
     },
 
-    "EditorPane.inactiveBackground": "#202831",
+    "EditorPane.inactiveBackground": "#000000",
 
     "EditorTabs": {
-      "underlineColor": "#3d8beb",
+      "underlineColor": "#0000a8",
       "underlineHeight": 1,
 
-      "underlinedTabBackground": "#303a45",
-      "inactiveColoredFileBackground": "#202831"
+      "underlinedTabBackground": "#57ffff",
+      "underlinedTabForeground": "#0000a8",
+      "inactiveColoredFileBackground": "#000000"
     },
 
     "FileColor": {
@@ -160,14 +174,27 @@
       "allocatedBackground": "#216fe0"
     },
 
+    "Menu": {
+      "background": "basicMenuBackground",
+      "foreground": "basicMenuForeground",
+      "selectionBackground": "basicSelectionMenuBackground",
+      "selectionForeground": "basicSelectionMenuForeground"
+    },
+
+    "MenuItem": {
+      "background": "basicMenuBackground",
+      "foreground": "basicMenuForeground",
+      "selectionForeground": "basicSelectionMenuForeground"
+    },
+
     "NavBar.borderColor": "#303a45",
 
     "Notification": {
-      "background": "#202831",
+      "background": "#a8a8a8",
 
-      "errorForeground": "#ececee",
-      "errorBackground": "#70011f",
-      "errorBorderColor": "#70011f",
+      "errorForeground": "#ffffff",
+      "errorBackground": "#a80000",
+      "errorBorderColor": "#f0d4d4",
 
       "MoreButton.innerBorderColor": "#0c1014",
 
@@ -235,6 +262,8 @@
     },
 
     "PopupMenu": {
+      "background": "basicMenuBackground",
+      "foreground": "basicMenuForeground",
       "borderWidth": 1,
       "borderInsets": "4,1,4,1"
     },
