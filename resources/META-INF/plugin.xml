@@ -10,7 +10,7 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="apbondarev@gmail.com" url="https://github.com/apbondarev/blues-theme">Aleksandr Bondarev</vendor>
 
     <idea-version since-build="222" until-build="241.*"/>
 

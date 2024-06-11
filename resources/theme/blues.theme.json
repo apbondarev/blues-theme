@@ -16,7 +16,13 @@
     "basicMenuBackground": "#00a8a8",
     "basicMenuForeground": "#ffffff",
     "basicSelectionMenuBackground": "#000000",
-    "basicSelectionMenuForeground": "#ffffff"
+    "basicSelectionMenuForeground": "#ffffff",
+
+    "basicButtonBackground": "#ffffff",
+    "basicButtonForeground": "#b7b7b7",
+    "basicFocusedButtonBackground": "#ffff57",
+    "basicFocusedButtonForeground": "#a90401",
+    "basicAcceleratorButtonColor": "#000000"
   },
 
   "ui": {
@@ -32,7 +38,7 @@
       "selectionBackgroundInactive": "#303a45",
 
       "disabledBackground": "basicDisabledBackground",
-      "inactiveBackground": "basicDisabledBackground",
+      "inactiveBackground": "basicBackground",
 
       "disabledForeground": "basicDisabledForeground",
       "disabledText": "basicDisabledForeground",
@@ -62,18 +68,19 @@
     },
 
     "Button": {
-      "startBackground": "#202831",
-      "endBackground": "#202831",
+      "startBackground": "basicButtonBackground",
+      "endBackground": "basicButtonBackground",
+      "foreground": "basicButtonForeground",
+      "focusedBorderColor": "basicFocusedButtonForeground",
       "startBorderColor": "#303a45",
       "endBorderColor": "#303a45",
 
       "default": {
-        "foreground": "#ececee",
-        "startBackground": "#f43b6c",
-        "endBackground": "#cd0940",
-        "startBorderColor": "#f43b6c",
-        "endBorderColor": "#cd0940",
-        "focusedBorderColor": "#ececee"
+        "foreground": "basicFocusedButtonForeground",
+        "startBackground": "basicFocusedButtonBackground",
+        "endBackground": "basicFocusedButtonBackground",
+        "focusColor": "basicFocusedButtonBackground",
+        "focusedBorderColor": "basicFocusedButtonForeground"
       }
     },
 
@@ -138,15 +145,12 @@
       "shortcutForeground": "basicSelectedColor"
     },
 
-    "EditorPane.inactiveBackground": "#000000",
-
     "EditorTabs": {
       "underlineColor": "#0000a8",
       "underlineHeight": 1,
 
       "underlinedTabBackground": "#57ffff",
-      "underlinedTabForeground": "#0000a8",
-      "inactiveColoredFileBackground": "#000000"
+      "underlinedTabForeground": "#0000a8"
     },
 
     "FileColor": {
@@ -169,6 +173,16 @@
       "visitedForeground": "#216fe0"
     },
 
+    "MainMenu": {
+      "transparentSelectionBackground": "basicMenuBackground"
+    },
+
+    "MainWindow": {
+      "Tab": {
+
+      }
+    },
+
     "MemoryIndicator": {
       "usedBackground": "#202831",
       "allocatedBackground": "#216fe0"
@@ -181,9 +195,14 @@
       "selectionForeground": "basicSelectionMenuForeground"
     },
 
+    "MenuBar": {
+      "foreground": "basicMenuForeground"
+    },
+
     "MenuItem": {
       "background": "basicMenuBackground",
       "foreground": "basicMenuForeground",
+      "selectionBackground": "basicSelectionMenuBackground",
       "selectionForeground": "basicSelectionMenuForeground"
     },
 
@@ -211,6 +230,11 @@
         "errorBackground": "#70011f",
         "errorBorderColor": "#70011f"
       }
+    },
+
+    "Panel": {
+      "background": "basicBackground",
+      "foreground": "basicForeground"
     },
 
     "ParameterInfo": {
@@ -249,13 +273,18 @@
       "paintBorder": true,
       "inactiveBorderColor": "#303a45",
       "Toolbar.borderColor": "#303a45",
-      "separatorForeground": "#ececee",
+      "separatorForeground": "basicMenuForeground",
 
-      "Header.activeBackground": "#216fe0",
-      "Header.inactiveBackground": "#063cbe",
+      "background": "basicMenuBackground",
+
+      "Header.activeBackground": "basicSelectionMenuBackground",
+      "Header.activeForeground": "basicSelectionMenuForeground",
+      "Header.inactiveBackground": "basicMenuBackground",
+      "Header.inactiveForeground": "basicMenuForeground",
 
       "Advertiser": {
-        "background": "#202831",
+        "background": "basicSelectionMenuBackground",
+        "foreground": "basicSelectionMenuForeground",
         "borderColor": "#303a45",
         "borderInsets": "3,8,5,0"
       }
@@ -329,20 +358,12 @@
     },
 
     "SpeedSearch": {
-      "foreground": "#ececee",
-      "borderColor": "#303a45",
-      "background": "#202831"
     },
 
     "StatusBar.borderColor": "#303a45",
 
     "TabbedPane": {
-      "underlineColor": "#216fe0",
-      "tabSelectionHeight": 1,
-      "disabledUnderlineColor": "#d5aa00",
-      "contentAreaColor": "#ececee",
-      "hoverColor": "#303a45",
-      "focusColor": "#303a45"
+
     },
 
     "TableHeader": {
@@ -366,6 +387,11 @@
       "borderColor": "#303a45"
     },
 
+    "ToolBar": {
+      "background": "basicBackground",
+      "foreground": "basicForeground"
+    },
+
     "ToolTip": {
       "background": "#202831",
       "Actions.background": "#202831"
@@ -373,26 +399,13 @@
 
     "ToolWindow": {
       "Header": {
-        "background": "#202831",
-        "inactiveBackground": "#202831"
+
       },
-
       "HeaderTab": {
-        "selectedInactiveBackground": "#303a45",
-        "hoverBackground": "#303a45",
-        "hoverInactiveBackground": "#303a45",
-        "underlinedTabInactiveBackground": "#303a45",
-        "underlinedTabBackground": "#303a45",
-
-        "underlineColor": "#3d8beb",
-        "inactiveUnderlineColor": "#8dc3f9",
         "underlineHeight": 1
       },
 
       "Button": {
-        "hoverBackground": "#303a45",
-        "selectedBackground": "#303a45",
-        "selectedForeground": "#ececee"
       }
     },
 
@@ -424,6 +437,7 @@
 
     "Window.border": "1,1,1,1,303a45"
   },
+
   "icons": {
     "ColorPalette": {
       "Actions.Grey": "#ececee",
