@@ -10,10 +10,13 @@
     "black": "#000000",
     "yellow": "#ffff57",
     "darkRed": "#bb3813",
+    "marine": "#57ffff",
+    "gray": "#a8a8a8",
 
     "basicBackground": "#0000a8",
-    "basicForeground": "#57ffff",
+    "basicForeground": "#ffffff",
     "basicSelectedColor": "#ffff57",
+    "basicSelectionBackground": "#57ffff",
     "basicBorderColor": "#fbfbfb",
     "basicInfoForefground": "#ffffff",
     "basicDisabledForeground": "#a8a8a8",
@@ -41,7 +44,7 @@
 
       "infoForeground": "basicInfoForefground",
 
-      "selectionBackground": "basicForeground",
+      "selectionBackground": "marine",
       "selectionForeground": "basicBackground",
       "selectionInactiveBackground": "#303a45",
       "selectionBackgroundInactive": "#303a45",
@@ -56,11 +59,11 @@
       "acceleratorForeground": "#ececee",
       "acceleratorSelectionForeground": "#ececee",
 
-      "errorForeground": "#c82600",
+      "errorForeground": "darkRed",
 
       "borderColor": "basicBorderColor",
-      "disabledBorderColor": "#57ffff",
-      "focusColor": "#a8a8a8",
+      "disabledBorderColor": "marine",
+      "focusColor": "gray",
       "focusedBorderColor": "basicSelectedColor",
       "hoverBorderColor": "basicSelectedColor",
       "pressedBorderColor": "basicSelectedColor",
@@ -223,7 +226,7 @@
     "NavBar.borderColor": "#303a45",
 
     "Notification": {
-      "background": "#a8a8a8",
+      "background": "gray",
 
       "errorForeground": "#ffffff",
       "errorBackground": "#a80000",
