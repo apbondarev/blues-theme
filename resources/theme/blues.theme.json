@@ -16,7 +16,8 @@
     "darkMarine": "#00a8a8",
     "gray": "#a8a8a8",
     "darkGray": "#303a45",
-    "blue": "#0000a8"
+    "blue": "#0000a8",
+    "darkBlue": "#00006d"
   },
 
   "ui": {
@@ -55,10 +56,10 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "white",
-      "pressedBackground": "black",
+      "hoverBackground": "darkMarine",
+      "pressedBackground": "darkMarine",
       "hoverBorderColor": "yellow",
-      "pressedBorderColor": "darkGray"
+      "pressedBorderColor": "black"
     },
 
     "Button": {
@@ -123,7 +124,7 @@
 
     "DefaultTabs": {
       "underlineColor": "white",
-      "inactiveUnderlineColor": "#101005",
+      "inactiveUnderlineColor": "black",
       "underlineHeight": 1
     },
 
@@ -140,11 +141,12 @@
     },
 
     "EditorTabs": {
-      "underlineColor": "blue",
+      "underlineColor": "white",
       "underlineHeight": 1,
 
-      "underlinedTabBackground": "marine",
-      "underlinedTabForeground": "blue"
+      "underlinedTabBackground": "darkBlue",
+      "underlinedTabForeground": "white",
+      "background": "blue"
     },
 
     "FileColor": {
