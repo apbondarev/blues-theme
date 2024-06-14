@@ -1,11 +1,16 @@
 {
-  "name": "blues-theme",
+  "name": "Blues Theme",
   "dark": true,
   "author": "Aleksandr Bondarev <sasha_bondarev@mail.ru>",
 
   "editorScheme": "/META-INF/blues_theme.xml",
 
   "colors": {
+    "white": "#ffffff",
+    "black": "#000000",
+    "yellow": "#ffff57",
+    "darkRed": "#bb3813",
+
     "basicBackground": "#0000a8",
     "basicForeground": "#57ffff",
     "basicSelectedColor": "#ffff57",
@@ -13,6 +18,7 @@
     "basicInfoForefground": "#ffffff",
     "basicDisabledForeground": "#a8a8a8",
     "basicDisabledBackground": "#000000",
+
     "basicMenuBackground": "#00a8a8",
     "basicMenuForeground": "#ffffff",
     "basicSelectionMenuBackground": "#000000",
@@ -22,7 +28,10 @@
     "basicButtonForeground": "#b7b7b7",
     "basicFocusedButtonBackground": "#ffff57",
     "basicFocusedButtonForeground": "#a90401",
-    "basicAcceleratorButtonColor": "#000000"
+    "basicAcceleratorButtonColor": "#000000",
+
+    "basicNotificationBackground": "#a8a8a8",
+    "basicNotificationForeground": "#ffffff"
   },
 
   "ui": {
@@ -61,9 +70,9 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "#202831",
-      "pressedBackground": "#202831",
-      "hoverBorderColor": "#303a45",
+      "hoverBackground": "white",
+      "pressedBackground": "black",
+      "hoverBorderColor": "yellow",
       "pressedBorderColor": "#303a45"
     },
 
@@ -171,6 +180,11 @@
       "hoverForeground": "#216fe0",
       "pressedForeground": "#216fe0",
       "visitedForeground": "#216fe0"
+    },
+
+    "List": {
+      "background": "basicNotificationBackground",
+      "foreground": "basicNotificationForeground"
     },
 
     "MainMenu": {
@@ -310,34 +324,18 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "#303a45",
-        "thumbBorderColor": "#303a45",
-        "hoverThumbColor": "#9ca2aa",
-        "hoverThumbBorderColor": "#9ca2aa",
-        "hoverTrackColor": "#434e5b"
+        "thumbColor": "basicMenuBackground",
+        "thumbBorderColor": "basicMenuBackground",
+        "hoverThumbColor": "basicMenuBackground",
+        "hoverThumbBorderColor": "basicMenuBackground",
+        "hoverTrackColor": "#0053a8"
       },
-      "thumbColor": "#303a45",
-      "thumbBorderColor": "#303a45",
-      "hoverThumbColor": "#9ca2aa",
-      "hoverThumbBorderColor": "#9ca2aa",
-      "trackColor": "#434e5b",
-      "hoverTrackColor": "#434e5b",
-
-      "Mac": {
-        "Transparent": {
-          "thumbColor": "#303a45",
-          "thumbBorderColor": "#303a45",
-          "hoverThumbColor": "#9ca2aa",
-          "hoverThumbBorderColor": "#9ca2aa",
-          "hoverTrackColor": "#434e5b"
-        },
-        "thumbColor": "#303a45",
-        "thumbBorderColor": "#303a45",
-        "hoverThumbColor": "#9ca2aa",
-        "hoverThumbBorderColor": "#9ca2aa",
-        "trackColor": "#434e5b",
-        "hoverTrackColor": "#434e5b"
-      }
+      "thumbColor": "basicMenuBackground",
+      "thumbBorderColor": "basicMenuBackground",
+      "hoverThumbColor": "basicMenuBackground",
+      "hoverThumbBorderColor": "basicMenuForeground",
+      "trackColor": "#0081a8",
+      "hoverTrackColor": "#0053a8"
     },
 
     "SearchEverywhere": {
