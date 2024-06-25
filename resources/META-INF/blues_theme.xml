@@ -11,7 +11,7 @@
     </metaInfo>
     <option name="LINE_SPACING" value="1.2" />
     <option name="EDITOR_FONT_SIZE" value="18" />
-    <option name="EDITOR_FONT_NAME" value="Unifont" />
+    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <colors>
         <option name="ADDED_LINES_COLOR" value="40bf77" />
         <option name="CARET_COLOR" value="ececee" />
@@ -20,6 +20,7 @@
         <option name="DELETED_LINES_COLOR" value="303a45" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="303a45" />
         <option name="DOCUMENTATION_COLOR" value="303a45" />
+        <option name="DOC_COMMENT_LINK" value="1aebff" />
         <option name="ERROR_HINT" value="770600" />
         <option name="FILESTATUS_ADDED" value="40bf77" />
         <option name="FILESTATUS_UNKNOWN" value="f9846c" />
@@ -335,7 +336,7 @@
         </option>
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="40bf77" />
+                <option name="FOREGROUND" value="ffffff" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -379,13 +380,13 @@
         <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="40bf77" />
+                <option name="FOREGROUND" value="57ffff" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="6f7a86" />
+                <option name="FOREGROUND" value="a8a8a8" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -416,30 +417,31 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="3d8beb" />
+                <option name="FOREGROUND" value="57ffff" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
             <value>
-                <option name="FOREGROUND" value="6f7a86" />
+                <option name="FOREGROUND" value="a8a8a8" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
+                <option name="FOREGROUND" value="f3c811" />
                 <option name="FONT_TYPE" value="1" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
             <value>
-                <option name="FOREGROUND" value="3d8beb" />
+                <option name="FOREGROUND" value="57ffff" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_DOC_MARKUP">
             <value>
-                <option name="FOREGROUND" value="40bf77" />
+                <option name="FOREGROUND" value="1aebff" />
             </value>
         </option>
         <option name="DEFAULT_DOT">
@@ -484,7 +486,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="40bf77" />
+                <option name="FOREGROUND" value="57ffff" />
                 <option name="EFFECT_COLOR" value="de3700" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
@@ -492,12 +494,12 @@
         <option name="DEFAULT_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="ffffff" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="6f7a86" />
+                <option name="FOREGROUND" value="a8a8a8" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -506,17 +508,17 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="3d8beb" />
+                <option name="FOREGROUND" value="57ffff" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="a8a8" />
+                <option name="FOREGROUND" value="f3c811" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="a8a8" />
+                <option name="FOREGROUND" value="57ffff" />
             </value>
         </option>
         <option name="DEFAULT_PARAMETER">
@@ -531,12 +533,12 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="3d8beb" />
+                <option name="FOREGROUND" value="57ffff" />
             </value>
         </option>
         <option name="DEFAULT_SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="40bf77" />
+                <option name="FOREGROUND" value="ffffff" />
             </value>
         </option>
         <option name="DEFAULT_STATIC_FIELD">
@@ -554,7 +556,7 @@
         </option>
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="a8a8" />
+                <option name="FOREGROUND" value="a800" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -565,7 +567,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="40bf77" />
+                <option name="FOREGROUND" value="57ffff" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -584,25 +586,25 @@
         </option>
         <option name="DIFF_CONFLICT">
             <value>
-                <option name="BACKGROUND" value="a8" />
+                <option name="BACKGROUND" value="a80000" />
                 <option name="ERROR_STRIPE_COLOR" value="c82600" />
             </value>
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="a8" />
+                <option name="BACKGROUND" value="a8a8a8" />
                 <option name="ERROR_STRIPE_COLOR" value="303a45" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
             <value>
-                <option name="BACKGROUND" value="a8" />
+                <option name="BACKGROUND" value="a800" />
                 <option name="ERROR_STRIPE_COLOR" value="45a3f" />
             </value>
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="a8" />
+                <option name="BACKGROUND" value="0" />
                 <option name="ERROR_STRIPE_COLOR" value="8dc3f9" />
             </value>
         </option>
@@ -649,7 +651,7 @@
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ff5370" />
+                <option name="FOREGROUND" value="57ffff" />
                 <option name="EFFECT_COLOR" value="ff5370" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
@@ -1021,7 +1023,7 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="3d8beb" />
+                <option name="FOREGROUND" value="ffffff" />
                 <option name="EFFECT_COLOR" value="3d8beb" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
@@ -1039,6 +1041,7 @@
         </option>
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
+                <option name="FOREGROUND" value="a8a8a8" />
                 <option name="EFFECT_COLOR" value="55616c" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
@@ -1157,6 +1160,11 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
+        <option name="JSON.BLOCK_COMMENT">
+            <value>
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="JSON.INVALID_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="f3c811" />
@@ -1166,9 +1174,16 @@
         </option>
         <option name="JSON.KEYWORD">
             <value>
-                <option name="FOREGROUND" value="3d8beb" />
                 <option name="FONT_TYPE" value="1" />
             </value>
+        </option>
+        <option name="JSON.LINE_COMMENT">
+            <value>
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="JSON.NUMBER">
+            <value />
         </option>
         <option name="JSON.PROPERTY_KEY">
             <value>
@@ -1178,9 +1193,7 @@
             </value>
         </option>
         <option name="JSON.STRING">
-            <value>
-                <option name="FOREGROUND" value="f3c811" />
-            </value>
+            <value />
         </option>
         <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
         <option name="KOTLIN_BACKING_FIELD_VARIABLE">
@@ -3329,7 +3342,7 @@
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ffe15c" />
+                <option name="FOREGROUND" value="ffff57" />
                 <option name="FONT_TYPE" value="2" />
                 <option name="ERROR_STRIPE_COLOR" value="f9846c" />
             </value>

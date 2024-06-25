@@ -66,6 +66,7 @@
       "startBackground": "white",
       "endBackground": "white",
       "foreground": "black",
+      "background": "darkMarine",
       "focusedBorderColor": "red",
       "startBorderColor": "darkGray",
       "endBorderColor": "darkGray",
@@ -84,14 +85,21 @@
       "ContrastBorderColor": "yellow"
     },
 
+    "CheckBox": {
+      "background": "gray"
+    },
+
     "ComboBox": {
-      "nonEditableBackground": "#202831",
+      "background": "gray",
+      "selectionBackground": "gray",
+      "nonEditableBackground": "gray",
       "modifiedItemForeground": "#3d8beb",
+
 
       "ArrowButton": {
         "iconColor": "paleWhite",
         "disabledIconColor": "darkGray",
-        "nonEditableBackground": "#202831"
+        "nonEditableBackground": "darkGray"
       }
     },
 
@@ -234,7 +242,7 @@
     },
 
     "Panel": {
-      "background": "blue",
+      "background": "darkMarine",
       "foreground": "white"
     },
 
@@ -309,6 +317,8 @@
       "passedEndColor": "#096e4c"
     },
 
+    "RadioButton.background": "gray",
+
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "darkMarine",
@@ -345,6 +355,8 @@
     "SpeedSearch": {
     },
 
+    "SidePanel.background": "darkMarine",
+
     "StatusBar.borderColor": "darkGray",
 
     "TabbedPane": {
@@ -361,6 +373,12 @@
       "lightSelectionInactiveForeground": "yellow",
       "lightSelectionBackground": "marine",
       "lightSelectionInactiveBackground": "gray"
+    },
+
+    "TextField.background": "gray",
+
+    "TitlePane": {
+        "background": "darkMarine"
     },
 
     "ToggleButton": {
