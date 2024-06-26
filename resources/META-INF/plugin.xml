@@ -18,8 +18,21 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your theme here.<br>
-    <em>most HTML tags may be used</em>
+    The Blues theme for your IDE immerses you in the atmosphere of old computers and programs reminiscent of the days
+    of MS DOS. The basis of the color palette is blue, which is complemented by other bright colors, creating a unique
+    and inimitable design.<br/>
+
+    Inspired by the Norton Commander interface, in the Blues theme you will find familiar color combinations that will
+    take you back to the days when programming was still gambling and exciting.<br/>
+
+    Discover new programming horizons and feel like a real hacker of the old school, creating your projects in a unique atmosphere.<br>
+
+    <img src="https://github.com/apbondarev/blues-theme/blob/master/files/screenshot-1.png?raw=true">
+    <br/>
+    <img src="https://github.com/apbondarev/blues-theme/blob/master/files/screenshot-2.png?raw=true">
+    <br/>
+    <img src="https://github.com/apbondarev/blues-theme/blob/master/files/screenshot-3.png?raw=true">
+    <br/>
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
