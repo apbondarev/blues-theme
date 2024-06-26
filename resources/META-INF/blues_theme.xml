@@ -54,11 +54,7 @@
                 <option name="FOREGROUND" value="3d8beb" />
             </value>
         </option>
-        <option name="ANNOTATION_NAME_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="3d8beb" />
-            </value>
-        </option>
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="APACHE_CONFIG.ARG_LEXEM">
             <value>
                 <option name="FOREGROUND" value="40bf77" />
@@ -161,11 +157,6 @@
                 <option name="FOREGROUND" value="7fdbca" />
                 <option name="EFFECT_COLOR" value="7fdbca" />
                 <option name="EFFECT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="CLASS_NAME_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="40bf77" />
             </value>
         </option>
         <option name="CLASS_REFERENCE">
@@ -556,7 +547,7 @@
         </option>
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="a800" />
+                <option name="FOREGROUND" value="57ff57" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -572,7 +563,7 @@
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f43b6c" />
+                <option name="FOREGROUND" value="ff5757" />
                 <option name="EFFECT_COLOR" value="f43b6c" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
@@ -633,7 +624,7 @@
         </option>
         <option name="ERRORS_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="e84606" />
+                <option name="FOREGROUND" value="ff5757" />
                 <option name="EFFECT_COLOR" value="e84606" />
                 <option name="ERROR_STRIPE_COLOR" value="e84606" />
                 <option name="EFFECT_TYPE" value="2" />
@@ -1077,11 +1068,10 @@
             </value>
         </option>
         <option name="INSTANCE_FIELD_ATTRIBUTES">
-            <value />
-        </option>
-        <option name="INTERFACE_NAME_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="78ccf0" />
+                <option name="FOREGROUND" value="57ff57" />
+                <option name="BACKGROUND" value="a8" />
+                <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="IVAR">
@@ -1110,13 +1100,11 @@
             </value>
         </option>
         <option name="JAVA_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="a8a8" />
-            </value>
+            <value />
         </option>
         <option name="JAVA_STRING">
             <value>
-                <option name="FOREGROUND" value="a8a8" />
+                <option name="FOREGROUND" value="57ff57" />
             </value>
         </option>
         <option name="JAVA_VALID_STRING_ESCAPE">
@@ -1183,16 +1171,6 @@
             </value>
         </option>
         <option name="JSON.NUMBER">
-            <value />
-        </option>
-        <option name="JSON.PROPERTY_KEY">
-            <value>
-                <option name="FOREGROUND" value="40bf77" />
-                <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_TYPE" value="5" />
-            </value>
-        </option>
-        <option name="JSON.STRING">
             <value />
         </option>
         <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
@@ -3323,12 +3301,12 @@
         <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f43b6c" />
+                <option name="FOREGROUND" value="ff5757" />
             </value>
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="ffff57" />
+                <option name="FOREGROUND" value="57ff57" />
                 <option name="BACKGROUND" value="a8" />
                 <option name="FONT_TYPE" value="1" />
                 <option name="EFFECT_TYPE" value="5" />
@@ -3401,7 +3379,7 @@
         <option name="VELOCITY_SCRIPTING_BACKGROUND" baseAttributes="" />
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="d5aa00" />
+                <option name="FOREGROUND" value="f3c811" />
                 <option name="EFFECT_COLOR" value="d5aa00" />
                 <option name="ERROR_STRIPE_COLOR" value="d5aa00" />
                 <option name="EFFECT_TYPE" value="2" />
