@@ -9,9 +9,6 @@
         <property name="vendorUrl">http://</property>
         <property name="version">0.1</property>
     </metaInfo>
-    <option name="LINE_SPACING" value="1.2" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
-    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <colors>
         <option name="ADDED_LINES_COLOR" value="40bf77" />
         <option name="CARET_COLOR" value="ececee" />
