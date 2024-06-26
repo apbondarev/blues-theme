@@ -10,6 +10,9 @@
     "paleWhite": "#fbfbfb",
     "black": "#000000",
     "yellow": "#ffff57",
+    "orange": "#f3c811",
+    "rose": "#ff92bb",
+    "magenta": "#ff57ff",
     "red": "#a90401",
     "darkRed": "#bb3813",
     "marine": "#57ffff",
@@ -17,7 +20,9 @@
     "gray": "#a8a8a8",
     "darkGray": "#303a45",
     "blue": "#0000a8",
-    "darkBlue": "#00006d"
+    "darkBlue": "#00006d",
+    "lightGreen": "#57ff57",
+    "green": "#00a800"
   },
 
   "ui": {
@@ -32,7 +37,7 @@
       "selectionInactiveBackground": "darkGray",
       "selectionBackgroundInactive": "darkGray",
 
-      "disabledBackground": "black",
+      "disabledBackground": "darkMarine",
       "inactiveBackground": "blue",
 
       "disabledForeground": "gray",
@@ -92,14 +97,14 @@
     "ComboBox": {
       "background": "gray",
       "selectionBackground": "gray",
-      "nonEditableBackground": "gray",
-      "modifiedItemForeground": "#3d8beb",
-
+      "nonEditableBackground": "darkGray",
+      "modifiedItemForeground": "green",
 
       "ArrowButton": {
         "iconColor": "paleWhite",
         "disabledIconColor": "darkGray",
-        "nonEditableBackground": "darkGray"
+        "nonEditableBackground": "darkGray",
+        "background": "gray"
       }
     },
 
@@ -158,12 +163,12 @@
     },
 
     "FileColor": {
-      "Yellow": "#202831",
-      "Green": "#202831",
-      "Blue": "#202831",
-      "Violet": "#202831",
-      "Orange": "#202831",
-      "Rose": "#202831"
+      "Yellow": "yellow",
+      "Green": "green",
+      "Blue": "blue",
+      "Violet": "magenta",
+      "Orange": "orange",
+      "Rose": "rose"
     },
 
     "InplaceRefactoringPopup": {
@@ -368,12 +373,15 @@
     },
 
     "Table": {
-      "stripeColor": "blue",
+      "stripeColor": "darkMarine",
+      "background": "darkMarine",
       "lightSelectionForeground": "yellow",
       "lightSelectionInactiveForeground": "yellow",
       "lightSelectionBackground": "marine",
       "lightSelectionInactiveBackground": "gray"
     },
+
+    "TableHeader.background": "gray",
 
     "TextField.background": "gray",
 
@@ -412,7 +420,10 @@
       }
     },
 
-    "Tree.modifiedItemForeground": "#216fe0",
+    "Tree": {
+      "background": "darkMarine",
+      "modifiedItemForeground": "#216fe0"
+    },
 
     "ValidationTooltip": {
       "errorBackground": "#cd0940",
@@ -431,6 +442,10 @@
         "backgroundBrightness": 0.7
       },
       "FileHistory.Commit.selectedBranchBackground": "blue"
+    },
+
+    "Viewport":{
+      "background": "darkMarine"
     },
 
     "WelcomeScreen": {
