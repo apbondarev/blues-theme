@@ -19,8 +19,19 @@
         <option name="DOCUMENTATION_COLOR" value="303a45" />
         <option name="DOC_COMMENT_LINK" value="1aebff" />
         <option name="ERROR_HINT" value="770600" />
-        <option name="FILESTATUS_ADDED" value="40bf77" />
-        <option name="FILESTATUS_UNKNOWN" value="f9846c" />
+        <option name="FILESTATUS_ADDED" value="57ff57" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="a80000" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="a80000" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+        <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
+        <option name="FILESTATUS_MERGED" value="ff57ff" />
+        <option name="FILESTATUS_MODIFIED" value="57ffff" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57ffff" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57ffff" />
+        <option name="FILESTATUS_UNKNOWN" value="ff5757" />
+        <option name="FILESTATUS_changelistConflict" value="a80000" />
+        <option name="FILESTATUS_modifiedOutside" value="57ffff" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="d8ecfe" />
         <option name="GUTTER_BACKGROUND" value="202831" />
         <option name="INDENT_GUIDE" value="303a45" />
@@ -146,7 +157,7 @@
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="0000a8" />
+                <option name="BACKGROUND" value="000000" />
             </value>
         </option>
         <option name="BROWSEWORDATCARET">
@@ -629,7 +640,7 @@
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="0000a8" />
+                <option name="BACKGROUND" value="575757" />
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">

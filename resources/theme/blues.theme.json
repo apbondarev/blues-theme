@@ -92,7 +92,7 @@
     },
 
     "CheckBox": {
-      "background": "gray"
+      "background": "darkMarine"
     },
 
     "ComboBox": {
@@ -160,7 +160,7 @@
       "underlineColor": "white",
       "underlineHeight": 1,
 
-      "underlinedTabBackground": "darkBlue",
+      "underlinedTabBackground": "darkMarine",
       "underlinedTabForeground": "white",
       "background": "blue"
     },
@@ -180,9 +180,9 @@
 
     "Link": {
       "activeForeground": "blue",
-      "hoverForeground": "#216fe0",
-      "pressedForeground": "#216fe0",
-      "visitedForeground": "#216fe0"
+      "hoverForeground": "green",
+      "pressedForeground": "green",
+      "visitedForeground": "darkMarine"
     },
 
     "List": {
