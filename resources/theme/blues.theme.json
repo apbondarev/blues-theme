@@ -40,7 +40,7 @@
       "disabledBackground": "darkMarine",
       "inactiveBackground": "blue",
 
-      "disabledForeground": "gray",
+      "disabledForeground": "darkGray",
       "disabledText": "gray",
       "inactiveForeground": "gray",
 
@@ -58,6 +58,7 @@
 
       "separatorColor": "darkGray",
       "lineSeparatorColor": "#434e5b"
+
     },
 
     "ActionButton": {
@@ -107,6 +108,8 @@
         "background": "gray"
       }
     },
+
+    "ComboBoxButton.background": "gray",
 
     "ComboPopup.border": "1,1,1,1,303a45",
 
@@ -163,9 +166,9 @@
     },
 
     "FileColor": {
-      "Yellow": "yellow",
+      "Yellow": "darkGray",
       "Green": "green",
-      "Blue": "blue",
+      "Blue": "darkMarine",
       "Violet": "magenta",
       "Orange": "orange",
       "Rose": "rose"
@@ -176,14 +179,14 @@
     },
 
     "Link": {
-      "activeForeground": "#3d8beb",
+      "activeForeground": "blue",
       "hoverForeground": "#216fe0",
       "pressedForeground": "#216fe0",
       "visitedForeground": "#216fe0"
     },
 
     "List": {
-      "background": "gray",
+      "background": "darkMarine",
       "foreground": "white"
     },
 
@@ -422,7 +425,9 @@
 
     "Tree": {
       "background": "darkMarine",
-      "modifiedItemForeground": "#216fe0"
+      "foreground": "white",
+      "modifiedItemForeground": "#216fe0",
+      "selectionInactiveBackground": "darkGray"
     },
 
     "ValidationTooltip": {
