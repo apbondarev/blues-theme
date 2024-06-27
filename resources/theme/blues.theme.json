@@ -179,7 +179,7 @@
     },
 
     "Link": {
-      "activeForeground": "blue",
+      "activeForeground": "marine",
       "hoverForeground": "green",
       "pressedForeground": "green",
       "visitedForeground": "darkMarine"
