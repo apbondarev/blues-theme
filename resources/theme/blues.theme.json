@@ -28,26 +28,22 @@
   "ui": {
     "*": {
       "background": "blue",
-      "foreground": "white",
-
-      "infoForeground": "white",
-
       "selectionBackground": "marine",
-      "selectionForeground": "blue",
       "selectionInactiveBackground": "darkGray",
       "selectionBackgroundInactive": "darkGray",
-
-      "disabledBackground": "darkMarine",
+      "disabledBackground": "blue",
       "inactiveBackground": "blue",
 
-      "disabledForeground": "darkGray",
-      "disabledText": "gray",
+      "foreground": "white",
+      "disabledForeground": "gray",
+      "errorForeground": "darkRed",
+      "infoForeground": "gray",
       "inactiveForeground": "gray",
-
+      "selectionForeground": "black",
       "acceleratorForeground": "paleWhite",
       "acceleratorSelectionForeground": "paleWhite",
 
-      "errorForeground": "darkRed",
+      "disabledText": "gray",
 
       "borderColor": "paleWhite",
       "disabledBorderColor": "marine",
@@ -58,7 +54,6 @@
 
       "separatorColor": "darkGray",
       "lineSeparatorColor": "#434e5b"
-
     },
 
     "ActionButton": {
@@ -69,10 +64,12 @@
     },
 
     "Button": {
+      "foreground": "black",
+
+      "background": "blue",
       "startBackground": "white",
       "endBackground": "white",
-      "foreground": "black",
-      "background": "darkMarine",
+
       "focusedBorderColor": "red",
       "startBorderColor": "darkGray",
       "endBorderColor": "darkGray",
@@ -92,20 +89,22 @@
     },
 
     "CheckBox": {
-      "background": "darkMarine"
+      "background": "blue"
     },
 
     "ComboBox": {
-      "background": "gray",
-      "selectionBackground": "gray",
-      "nonEditableBackground": "darkGray",
+      "background": "darkGray",
       "modifiedItemForeground": "green",
+      "nonEditableBackground": "darkGray",
+      "selectionBackground": "marine",
+
+      "foreground": "white",
+      "disabledForeground": "gray",
 
       "ArrowButton": {
         "iconColor": "paleWhite",
-        "disabledIconColor": "darkGray",
-        "nonEditableBackground": "darkGray",
-        "background": "gray"
+        "disabledIconColor": "gray",
+        "background": "darkGray"
       }
     },
 
@@ -151,18 +150,15 @@
     },
 
     "Editor": {
-      "background": "blue",
-      "foreground": "white",
       "shortcutForeground": "yellow"
     },
 
     "EditorTabs": {
-      "underlineColor": "white",
+      "underlineColor": "yellow",
       "underlineHeight": 1,
 
       "underlinedTabBackground": "darkMarine",
-      "underlinedTabForeground": "white",
-      "background": "blue"
+      "underlinedTabForeground": "white"
     },
 
     "FileColor": {
@@ -178,6 +174,10 @@
       "borderColor": "darkGray"
     },
 
+    "Label": {
+      "selectedForeground": "yellow"
+    },
+
     "Link": {
       "activeForeground": "marine",
       "hoverForeground": "green",
@@ -186,8 +186,6 @@
     },
 
     "List": {
-      "background": "darkMarine",
-      "foreground": "white"
     },
 
     "MainMenu": {
@@ -207,18 +205,16 @@
 
     "Menu": {
       "background": "darkMarine",
-      "foreground": "white",
       "selectionBackground": "black",
       "selectionForeground": "white"
     },
 
     "MenuBar": {
-      "foreground": "white"
+
     },
 
     "MenuItem": {
       "background": "darkMarine",
-      "foreground": "white",
       "selectionBackground": "black",
       "selectionForeground": "white"
     },
@@ -250,8 +246,6 @@
     },
 
     "Panel": {
-      "background": "darkMarine",
-      "foreground": "white"
     },
 
     "ParameterInfo": {
@@ -292,8 +286,6 @@
       "Toolbar.borderColor": "darkGray",
       "separatorForeground": "white",
 
-      "background": "darkMarine",
-
       "Header.activeBackground": "black",
       "Header.activeForeground": "white",
       "Header.inactiveBackground": "darkMarine",
@@ -301,7 +293,6 @@
 
       "Advertiser": {
         "background": "black",
-        "foreground": "white",
         "borderColor": "darkGray",
         "borderInsets": "3,8,5,0"
       }
@@ -309,7 +300,6 @@
 
     "PopupMenu": {
       "background": "darkMarine",
-      "foreground": "white",
       "borderWidth": 1,
       "borderInsets": "4,1,4,1"
     },
@@ -325,7 +315,9 @@
       "passedEndColor": "#096e4c"
     },
 
-    "RadioButton.background": "gray",
+    "RadioButton": {
+
+    },
 
     "ScrollBar": {
       "Transparent": {
@@ -348,7 +340,7 @@
         "selectedForeground": "paleWhite",
         "selectedBackground": "#216fe0"
       },
-      "SearchField.borderColor": "darkGray",
+      "SearchField.borderColor": "white",
       "Advertiser": {
         "background": "#202831",
         "borderInsets": "3,8,5,0"
@@ -371,25 +363,32 @@
 
     },
 
-    "TableHeader": {
-      "cellBorder": "8,0,8,0"
-    },
-
     "Table": {
       "stripeColor": "darkMarine",
-      "background": "darkMarine",
       "lightSelectionForeground": "yellow",
       "lightSelectionInactiveForeground": "yellow",
       "lightSelectionBackground": "marine",
       "lightSelectionInactiveBackground": "gray"
     },
 
-    "TableHeader.background": "gray",
+    "TableHeader": {
+      "cellBorder": "8,0,8,0",
+      "background": "darkMarine",
+      "foreground": "white"
+    },
 
-    "TextField.background": "gray",
+    "TextArea": {
+      "background": "darkGray",
+      "selectionBackground": "gray",
+      "selectionForeground": "black"
+    },
+
+    "TextField": {
+      "background": "darkGray"
+    },
 
     "TitlePane": {
-        "background": "darkMarine"
+
     },
 
     "ToggleButton": {
@@ -402,8 +401,7 @@
     },
 
     "ToolBar": {
-      "background": "blue",
-      "foreground": "white"
+
     },
 
     "ToolTip": {
@@ -413,7 +411,6 @@
 
     "ToolWindow": {
       "Header": {
-
       },
       "HeaderTab": {
         "underlineHeight": 1
@@ -424,8 +421,8 @@
     },
 
     "Tree": {
-      "background": "darkMarine",
       "foreground": "white",
+      "selectionBackground": "marine",
       "modifiedItemForeground": "#216fe0",
       "selectionInactiveBackground": "darkGray"
     },
