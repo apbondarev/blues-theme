@@ -1,9 +1,8 @@
 <scheme name="Blues Theme" version="142" parent_scheme="Darcula">
-    <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
         <property name="description" />
         <property name="ide">Idea</property>
-        <property name="ideVersion">2024.1.2.0.0</property>
+        <property name="ideVersion">2024.1.4.0.0</property>
         <property name="vendorMail" />
         <property name="vendorName" />
         <property name="vendorUrl">http://</property>
@@ -401,7 +400,7 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="f3c811" />
+                <option name="FOREGROUND" value="ffff57" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -480,7 +479,7 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="f3c811" />
+                <option name="FOREGROUND" value="ffff57" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -591,19 +590,19 @@
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="a8a8a8" />
+                <option name="BACKGROUND" value="484848" />
                 <option name="ERROR_STRIPE_COLOR" value="303a45" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
             <value>
-                <option name="BACKGROUND" value="00a800" />
+                <option name="BACKGROUND" value="006800" />
                 <option name="ERROR_STRIPE_COLOR" value="45a3f" />
             </value>
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="0" />
+                <option name="BACKGROUND" value="000000" />
                 <option name="ERROR_STRIPE_COLOR" value="8dc3f9" />
             </value>
         </option>
@@ -3011,13 +3010,13 @@
         </option>
         <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f78c6c" />
+                <option name="FOREGROUND" value="57ffff" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f9846c" />
+                <option name="FOREGROUND" value="57ffff" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -3367,7 +3366,7 @@
         </option>
         <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f78c6c" />
+                <option name="FOREGROUND" value="ffff57" />
             </value>
         </option>
         <option name="TYPO">
