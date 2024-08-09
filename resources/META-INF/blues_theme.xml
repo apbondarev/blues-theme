@@ -6,7 +6,7 @@
         <property name="vendorMail" />
         <property name="vendorName" />
         <property name="vendorUrl">http://</property>
-        <property name="version">0.1</property>
+        <property name="version">1.0.2</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="40bf77" />
@@ -42,6 +42,21 @@
         <option name="QUESTION_HINT" value="303a45" />
         <option name="RECENT_LOCATIONS_SELECTION" value="303a45" />
         <option name="RIGHT_MARGIN_COLOR" value="434e5b" />
+
+        <option name="ScrollBar.background" value="0000a8"/>
+        <option name="ScrollBar.trackColor" value="0081a8"/>
+        <option name="ScrollBar.thumbColor" value="00a8a8"/>
+        <option name="ScrollBar.thumbBorderColor" value="00a8a8"/>
+        <option name="ScrollBar.hoverTrackColor" value="0053a8"/>
+        <option name="ScrollBar.hoverThumbColor" value="00a8a8"/>
+        <option name="ScrollBar.hoverThumbBorderColor" value="00a8a8"/>
+        <option name="ScrollBar.Transparent.trackColor" value="0081a8"/>
+        <option name="ScrollBar.Transparent.thumbColor" value="00a8a8"/>
+        <option name="ScrollBar.Transparent.thumbBorderColor" value="00a8a8"/>
+        <option name="ScrollBar.Transparent.hoverTrackColor" value="0053a8"/>
+        <option name="ScrollBar.Transparent.hoverThumbColor" value="00a8a8"/>
+        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="00a8a8"/>
+
         <option name="SELECTED_INDENT_GUIDE" value="6f7a86" />
         <option name="SELECTION_BACKGROUND" value="9ca2aa" />
         <option name="SELECTION_FOREGROUND" value="202831" />

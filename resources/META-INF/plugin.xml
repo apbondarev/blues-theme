@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>blues</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -12,7 +12,7 @@
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="apbondarev@gmail.com" url="https://github.com/apbondarev/blues-theme">Aleksandr Bondarev</vendor>
 
-    <idea-version since-build="222" until-build="241.*"/>
+    <idea-version since-build="222"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -20,18 +20,15 @@
     <description><![CDATA[
     The Blues theme for your IDE immerses you in the atmosphere of old computers and programs reminiscent of the days
     of MS DOS. The basis of the color palette is blue, which is complemented by other bright colors, creating a unique
-    and inimitable design.<br/>
-
-    Inspired by the Norton Commander interface, in the Blues theme you will find familiar color combinations that will
-    take you back to the days when programming was still gambling and exciting.<br/>
-
-    Discover new programming horizons and feel like a real hacker of the old school, creating your projects in a unique atmosphere.
+    and inimitable design. Inspired by the Norton Commander interface, in the Blues theme you will find familiar color
+    combinations that will take you back to the days when programming was still gambling and exciting. Discover new
+    programming horizons and feel like a real hacker of the old school, creating your projects in a unique atmosphere.
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Fix colors for the old UI. Fix colors to increase contrast.
+    Change some colors to make them more contrast.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.

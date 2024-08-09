@@ -1,9 +1,9 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g>
         <title>Layer 1</title>
-        <rect stroke-width="0" id="svg_1" height="16" width="16" y="4" x="4" stroke="#000" fill="#0000ff"/>
-        <rect stroke-width="0" id="svg_2" height="16" width="16" y="20" x="20" stroke="#000" fill="#0000ff"/>
-        <rect stroke-width="0" id="svg_3" height="16" width="16" y="4" x="20" stroke="#000" fill="#57ffff"/>
-        <rect stroke-width="0" id="svg_4" height="16" width="16" y="20" x="4" stroke="#000" fill="#57ffff"/>
+        <rect stroke-width="1" id="svg_1" height="16" width="16" y="4" x="4" stroke="#ffffff" fill="#0000ff"/>
+        <rect stroke-width="1" id="svg_2" height="16" width="16" y="20" x="20" stroke="#ffffff" fill="#0000ff"/>
+        <rect stroke-width="1" id="svg_3" height="16" width="16" y="4" x="20" stroke="#ffffff" fill="#57ffff"/>
+        <rect stroke-width="1" id="svg_4" height="16" width="16" y="20" x="4" stroke="#ffffff" fill="#57ffff"/>
     </g>
 </svg>

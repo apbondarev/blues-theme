@@ -64,7 +64,7 @@
     },
 
     "Button": {
-      "foreground": "black",
+      "foreground": "darkMarine",
 
       "background": "blue",
       "startBackground": "white",
@@ -186,6 +186,7 @@
     },
 
     "List": {
+      "selectionBackground": "gray"
     },
 
     "MainMenu": {
@@ -365,7 +366,7 @@
 
     "Table": {
       "stripeColor": "darkMarine",
-      "lightSelectionForeground": "yellow",
+      "lightSelectionForeground": "orange",
       "lightSelectionInactiveForeground": "yellow",
       "lightSelectionBackground": "marine",
       "lightSelectionInactiveBackground": "gray"
