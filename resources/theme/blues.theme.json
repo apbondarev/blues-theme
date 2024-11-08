@@ -22,7 +22,8 @@
     "blue": "#0000a8",
     "darkBlue": "#00006d",
     "lightGreen": "#57ff57",
-    "green": "#00a800"
+    "green": "#00a800",
+    "lightBlue": "#3573f0"
   },
 
   "ui": {
@@ -57,7 +58,7 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "darkMarine",
+      "hoverBackground": "lightBlue",
       "pressedBackground": "darkMarine",
       "hoverBorderColor": "yellow",
       "pressedBorderColor": "black"
@@ -170,6 +171,12 @@
       "Rose": "rose"
     },
 
+    "GotItTooltip": {
+      "Button": {
+        "foreground": "darkMarine"
+      }
+    },
+
     "InplaceRefactoringPopup": {
       "borderColor": "darkGray"
     },
@@ -244,9 +251,6 @@
         "errorBackground": "#70011f",
         "errorBorderColor": "#70011f"
       }
-    },
-
-    "Panel": {
     },
 
     "ParameterInfo": {
