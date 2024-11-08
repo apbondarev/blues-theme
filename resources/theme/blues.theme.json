@@ -29,7 +29,6 @@
   "ui": {
     "*": {
       "background": "blue",
-      "selectionBackground": "marine",
       "selectionInactiveBackground": "darkGray",
       "selectionBackgroundInactive": "darkGray",
       "disabledBackground": "blue",
@@ -193,16 +192,16 @@
     },
 
     "List": {
-      "selectionBackground": "gray"
+      "selectionBackground": "marine"
     },
 
     "MainMenu": {
       "transparentSelectionBackground": "darkMarine"
     },
 
-    "MainWindow": {
-      "Tab": {
-
+    "MainToolbar": {
+      "Dropdown": {
+        "transparentHoverBackground": "lightBlue"
       }
     },
 
@@ -326,17 +325,16 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "darkMarine",
-        "thumbBorderColor": "darkMarine",
+        "thumbColor": "00a8a880",
         "hoverThumbColor": "darkMarine",
-        "hoverThumbBorderColor": "darkMarine",
+        "hoverThumbBorderColor": "white",
         "hoverTrackColor": "#0053a8"
       },
       "thumbColor": "darkMarine",
       "thumbBorderColor": "darkMarine",
+      "trackColor": "#0081a8",
       "hoverThumbColor": "darkMarine",
       "hoverThumbBorderColor": "white",
-      "trackColor": "#0081a8",
       "hoverTrackColor": "#0053a8"
     },
 
@@ -369,6 +367,7 @@
     },
 
     "Table": {
+      "selectionBackground": "marine",
       "stripeColor": "darkMarine",
       "lightSelectionForeground": "orange",
       "lightSelectionInactiveForeground": "yellow",
@@ -441,6 +440,7 @@
 
     "VersionControl": {
       "Log.Commit": {
+        "selectionBackground": "marine",
         "currentBranchBackground": "blue",
         "unmatchedForeground": "paleWhite"
       },

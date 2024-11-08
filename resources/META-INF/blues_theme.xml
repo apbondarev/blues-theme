@@ -43,16 +43,17 @@
         <option name="RECENT_LOCATIONS_SELECTION" value="303a45" />
         <option name="RIGHT_MARGIN_COLOR" value="434e5b" />
 
-        <option name="ScrollBar.background" value="0000a8"/>
+        <option name="ScrollBar.background" value="0081a8"/>
         <option name="ScrollBar.trackColor" value="0081a8"/>
         <option name="ScrollBar.thumbColor" value="00a8a8"/>
         <option name="ScrollBar.thumbBorderColor" value="00a8a8"/>
         <option name="ScrollBar.hoverTrackColor" value="0053a8"/>
         <option name="ScrollBar.hoverThumbColor" value="00a8a8"/>
-        <option name="ScrollBar.hoverThumbBorderColor" value="00a8a8"/>
-        <option name="ScrollBar.Transparent.hoverTrackColor" value="0053a810"/>
-        <option name="ScrollBar.Transparent.hoverThumbColor" value="00a8a810"/>
-        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="00a8a810"/>
+        <option name="ScrollBar.hoverThumbBorderColor" value="ffffff"/>
+        <option name="ScrollBar.Transparent.thumbColor" value="00a8a880"/>
+        <option name="ScrollBar.Transparent.hoverTrackColor" value="0053a8"/>
+        <option name="ScrollBar.Transparent.hoverThumbColor" value="00a8a8"/>
+        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="ffffff"/>
 
         <option name="SELECTED_INDENT_GUIDE" value="6f7a86" />
         <option name="SELECTION_BACKGROUND" value="9ca2aa" />
