@@ -155,10 +155,12 @@
 
     "EditorTabs": {
       "underlineColor": "yellow",
-      "underlineHeight": 1,
+      "underlineHeight": 2,
 
-      "underlinedTabBackground": "darkMarine",
-      "underlinedTabForeground": "white"
+      "underlinedTabBackground": "darkBlue",
+      "underlinedTabForeground": "white",
+
+      "hoverBackground": "black"
     },
 
     "FileColor": {
