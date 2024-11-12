@@ -285,7 +285,7 @@
         "updateBackground": "#f43b6c"
       },
 
-      "lightSelectionBackground": "darkGray"
+      "lightSelectionBackground": "lightBlue"
     },
 
     "Popup": {
