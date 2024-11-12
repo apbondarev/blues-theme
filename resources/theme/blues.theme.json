@@ -192,8 +192,11 @@
     },
 
     "List": {
-      "selectionBackground": "marine"
+      "selectionBackground": "lightBlue",
+      "selectionForeground": "black"
     },
+
+
 
     "MainMenu": {
       "transparentSelectionBackground": "darkMarine"
@@ -253,8 +256,7 @@
     },
 
     "ParameterInfo": {
-      "background": "darkGray",
-      "foreground": "paleWhite",
+
       "currentOverloadBackground": "darkGray",
       "currentParameterForeground": "#f3c811",
       "lineSeparatorColor": "#434e5b"

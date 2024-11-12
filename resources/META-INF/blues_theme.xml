@@ -25,7 +25,7 @@
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
         <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
         <option name="FILESTATUS_MERGED" value="ff57ff" />
-        <option name="FILESTATUS_MODIFIED" value="57ffff" />
+        <option name="FILESTATUS_MODIFIED" value="00a800" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57ffff" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57ffff" />
         <option name="FILESTATUS_UNKNOWN" value="ff5757" />
@@ -1071,14 +1071,14 @@
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="55616c" />
+                <option name="FOREGROUND" value="ffffff" />
                 <option name="BACKGROUND" value="0000a8" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="FOREGROUND" value="ececee" />
-                <option name="BACKGROUND" value="0000a8" />
+                <option name="FOREGROUND" value="000000" />
+                <option name="BACKGROUND" value="57ffff" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
