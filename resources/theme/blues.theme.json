@@ -80,7 +80,8 @@
         "endBackground": "yellow",
         "focusColor": "yellow",
         "focusedBorderColor": "red"
-      }
+      },
+      "Split.default.iconColor": "darkGray"
     },
 
     "Borders": {
