@@ -28,11 +28,12 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Fixes:
-    1) Matched brace in editor cor scheme has made more contrast.
-    2) Tooltip scrollbar has made transparent so that it does not hide text.
-    3) GotItTooltip button text was invisible.
-    4) Changed hover color of action buttons to make them more contrast.
+    1) Change: a matched brace in editor has been made more contrast.
+    2) Fix: tooltip scrollbar has been made transparent so that it does not hide text.
+    3) Fix: GotItTooltip button text was invisible.
+    4) Change: hover color of action buttons to increase contrast.
+    5) Change: editor active tab color to increase contrast.
+    6) Fix: arrow on drop down list was invisible.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
